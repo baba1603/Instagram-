@@ -1,161 +1,18 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-<meta name="description" content="青木">
-<meta name="keywords" content="">
-<title>Instagram自動システム</title>
-<link rel="stylesheet" href="style.css" type="text/css" media="screen">
-<!--[if lt IE 9]>
-<script src="js/html5.js"></script>
-<script src="js/css3-mediaqueries.js"></script>
-<![endif]-->
-</head>
-<body>
-<!-- ヘッダー -->
-<div id="header">
-	<div class="inner">
-  
-  	<h1>AokiYuma</h1>
-
-		<!-- ロゴ -->
-		<div class="logo">
-			<a href="index.html">Instagram自動システム<br><span>DM自動送信機能</span></a>
-		</div>
-		<!-- / ロゴ -->
-    
-    <!-- 電話番号+受付時間 -->
-		<div class="info">
-		
-		
-    	<p>連絡先: aokiyuma@gmail.com</p>
-		<p>受付時間: 平日 AM 10:00 〜 PM 5:00</p>
+<html>
+  <body>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+    <div id="g_id_onload"
+        data-client_id="884706159684-nmb6t2jc2kslh2e0smbj0kdkgldg2up2.apps.googleusercontent.com"
+        data-login_uri="https://baba1603.github.io/Instagram-/index.html"
+        data-auto_prompt="false">
     </div>
-		<!-- / 電話番号+受付時間 -->
-    
-
-
-  <!-- トップナビゲーション -->
-	<ul id="topnav">
-		<li class="active"><a href="index.html">アカウント抽出機能<br><span>A</span></a></li>
-		<li><a href="subpage.html">DM送信機能<br><span>B</span></a></li>
-	</ul>
-	<!-- トップナビゲーション -->
-  
-  </div>
-  
-</div>
-<!-- / ヘッダー -->
-
-<!-- メイン画像 -->
-<div id="mainBanner" class="mainImg">
-	<div class="inner">
-		<img src="images/mainImg.jpg" width="940" height="300" alt="">
-    <div class="slogan">
-			<h2>DMを送信したいアカウントを自動抽出します</h2>
-			<h3>1秒に1件DMを自動送信できます</h3>
-		</div>
-	</div>
-</div>
-<!-- / メイン画像 -->
-
-		
-<!-- WRAPPER -->
-<div id="wrapper">
-
-	<!-- アカウント抽出機能 -->
-	<section class="gridWrapper" id="sub">
-		<article class="grid col2">
-			<h3>フォロー・フォロワーから抽出</h3>
-    		<form>
-        		<label for="url">ターゲットアカウントのURL:</label>
-        		<input type="text" id="url" name="url" placeholder="ここにURL入力"><br><br>
-
-        		<label for="optionA">フォロー欄から抽出</label>
-        		<input type="radio" id="optionA" name="options" value="A"><br>
-        		<label for="optionB">フォロワー欄から抽出</label>
-        		<input type="radio" id="optionB" name="options" value="B"><br><br>
-
-        		<input type="submit" value="スタート">
-    		</form>
-    	</article>
-		<article class="grid col2">
-			<h3>ハッシュタグ検索から抽出</h3>
-    		<form>
-        		<label for="url">検索したいハッシュタグ:</label>
-        		<input type="text" id="url" name="url" placeholder="#"><br><br>
-				<label for="url">抽出したいアカウント数:</label>
-        		<input type="text" id="url" name="url" placeholder="1~10,000"><br><br>
-
-        		<input type="submit" value="スタート">
-    		</form>
-    	</article>
-
-	<!-- / アカウント抽出機能 -->
-
-    <!-- DM送信機能 -->  
-	<section class="gridWrapper" id="sub">
-  	<article class="grid col3">
-    	<h3>DM送信</h3>	
-		<form>
-			<label for="time">DM送信の時間間隔</label>
-			<input type="text" id="time" name="url" placeholder=""><br><br>
-
-			<label for="url">DM送信したいアカウント数</label>
-			<input type="text" id="countA" name="url" placeholder=""><br><br>
-
-			<label for="url">各アカウントの送信件数</label>
-			<input type="text" id="countB" name="url" placeholder=""><br><br>
-
-			<label for="url">何ヵ月返信がない場合にDMを再送信したいか</label>
-			<input type="text" id="months" name="url" placeholder=""><br><br>
-
-			<label for="url">送信したいDM本文</label>
-			<input type="text" id="sentence" name="url" class="large-input"><br><br>
-
-			<input type="submit" value="スタート">
-		</form>
-    </article>
-    
-	</section>
-	<!-- / DM送信機能 -->
-
-</div>
-<!-- / WRAPPER -->
-
-<!-- フッター -->
-<div id="footer">
-	<div class="inner">
-    
-		<!-- 3カラム -->
-    <section class="gridWrapper">
-      
-			<article class="grid">
-      	<!-- ロゴ -->
-				<p class="logo"><a href="index.html">Insyagram自動システム<br /><span>DM自動送信機能</span></a></p>
-				<!-- / ロゴ -->
-			</article>
-      
-      <article class="grid col3">
-      	<ul>
-					<li><a href="subpage.html">Instglam</a></li>
-					<li><a href="subpage.html">Ticktok</a></li>
-					<li><a href="subpage.html">X</a></li>
-
-					<li><a href="subpage.html">会社情報</a></li>
-					<li><a href="subpage.html">お問い合わせ</a></li>
-					<li><a href="subpage.html">サイトマップ</a></li>
-				</ul>
-      	<p>Copyright(c) 2012 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></p>
-      </article>
-		
-    </section>
-		<!-- / 3カラム -->
-      
-	</div>
-</div>
-<!-- / フッター -->
-
-</body>
+    <div class="g_id_signin"
+        data-type="standard"
+        data-size="large"
+        data-theme="outline"
+        data-text="sign_in_with"
+        data-shape="rectangular"
+        data-logo_alignment="left">
+    </div>
+  <body>
 </html>
